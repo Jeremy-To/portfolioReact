@@ -12,6 +12,8 @@ import {
 import { isValidMotionProp, motion } from "framer-motion";
 import { IconType } from "react-icons";
 import { me } from "../../../me";
+import Typed from 'react-typed';
+
 
 export const Hero = () => {
   const variants = {
@@ -57,8 +59,22 @@ export const Hero = () => {
           as={"h1"}
           size={"3xl"}
           color={useColorModeValue("blue.700", "gray.100")}
-        >
-          Hi, I'm {me.name}
+        > 
+
+          <h1>
+          Hi! I'm {me.name}
+          {' '}
+          <br />
+          {' '}
+          <Typed
+            strings={['Front-end', 'React', 'Django']}
+            typeSpeed={50}
+            backSpeed={60}
+            loop
+            className="typed"
+          />
+          Developer
+        </h1>
         </Heading>
         <Text fontSize={"2xl"}>{me.subtitle}</Text>
         <Text fontSize={"xl"}>{me.tagline}</Text>
@@ -73,6 +89,7 @@ export const Hero = () => {
               hover={social.hover}
             />
           ))}
+
         </Stack>
       </Stack>
     </Stack>

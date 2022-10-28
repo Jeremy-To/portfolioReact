@@ -8,10 +8,8 @@ import {
 import {
   SiC,
   SiCss3,
-  SiGooglecloud,
   SiHtml5,
   SiJavascript,
-  SiKubernetes,
   SiPython,
   SiTypescript,
 } from "react-icons/si";
@@ -28,92 +26,89 @@ export const me = {
   image: "/assets/arhammusheer.jpeg",
   education: [
     {
-      degree: "Bachelors of Science",
-      major: "Computer Engineering",
-      school: "University of Massachusetts Amherst",
-      graduation: "May 2024",
-      awards: ["Chancellor's Award: $12,000"],
+      degree: "Certificate of completion",
+      major: "Computer Science (CS50)",
+      school: "University of Harvard x EDX",
+      graduation: "2022",
+      awards: [""],
+    },
+    {
+      degree: "Certificate of completion",
+      major: "Front-end Development",
+      school: "Codecademy",
+      graduation: "2022",
+      awards: [""],
     },
   ],
  
   projects: [
     {
-      name: "Croissant.one (This Website)",
+      name: "Jérémy's website (This Website)",
       description: "A website to showcase my projects and resume",
       contribution:
-        "I built the entire website from scratch using React.js, TypeScript, and Chakra UI and deployed it on Vercel.",
-      technologies: ["React", "Typescript", "Chakra-UI", "Vercel"],
+        "I built the entire website from scratch using React.js, TypeScript, and Chakra UI and deployed it on Netlify.",
+      technologies: ["React", "Typescript", "Chakra-UI", "Netlify"],
       links: [
         {
-          name: "Website",
-          uri: "https://croissant.one",
+          name: "Jeremy TO Website",
+          uri: "https://Jeremyto.com",
         },
         {
           name: "Github",
-          uri: "https://github.com/arhammusheer/croissant.one",
+          uri: "https://github.com/Jeremy-To/portfolioReact",
         },
       ],
       image: "/assets/croissant.svg",
     },
     {
-      name: "AudioShelf",
+      name: "Tic-Tac-Toe",
       description:
-        "A mobile app with over 2k users to discover audiobooks in 30 languages and summarize them in 5 minutes",
+        "A tic-tac-toe game where you can't win against the bot.",
       contribution:
-        "I built the backend infrastructure for the app including authentication systems, OAuth Scope and a REST API. I also built an internal CMS dashboard to manage content publishing and translations.",
+        "I built it using conditional in javascript.",
       technologies: [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Google Cloud",
-        "Docker",
-        "OAuth2",
+        "Javascript",
+        "Css",
+        "HTML",
       ],
       links: [
         {
-          name: "Website",
-          uri: "https://getaudioshelf.com",
-        },
-        {
-          name: "Play Store",
-          uri: "https://play.google.com/store/apps/details?id=com.audioshelfapp",
+          name: "tic-tac-toe",
+          uri: "https://github.com/Jeremy-To/tic-tac-toe",
         },
       ],
       image: "https://content.getaudioshelf.com/logo.png",
     },
     {
-      name: "Dad API",
-      description: "A REST API to get dad jokes and pickup lines",
+      name: "Weather app",
+      description: "A Wheather app using an api to get weather based on the place of your choise",
       contribution:
-        "I built the entire API from scratch using Node.js and Express and deployed it on Google Cloud Run.",
-      technologies: ["Node.js", "Express", "Google Cloud", "Docker"],
+        "I built this app using react for fetching geolocalisation and weaather form it.",
+      technologies: 
+      [
+        "React.js", "Javascript", "Css", "HTML"
+      ],
       links: [
         {
-          name: "Joke Endpoint",
-          uri: "https://dad.croissant.one/api/joke",
-        },
-        {
-          name: "Pickup Line Endpoint",
-          uri: "https://dad.croissant.one/api/pickup",
-        },
-        {
-          name: "Github",
-          uri: "https://github.com/arhammusheer/dad-api",
+          name: "Weather app",
+          uri: "https://github.com/Jeremy-To/weather-app",
         },
       ],
       image: "/assets/dad.png",
     },
     {
-      name: "Loud Noises",
+      name: "Spotify App",
       description:
-        "A web app to play loud noises when you're in the same chat room as them. Press the big red button to play a list of sounds on their device. No registration required.",
+        "A web app to add songs to a new playlist using spotify api.",
       contribution:
-        "Built a full stack app with socket.io and deployed it on Heroku.",
-      technologies: ["Node.js", "Express", "Socket.io", "Heroku", "Bootstrap"],
+        "I Built this app in order to enter a song name in a bar reaserch an to get all the songs for it and adding it to a playlist.",
+      technologies:       [
+        "React.js", "Javascript", "Css", "HTML"
+      ],
       links: [
         {
           name: "Website",
-          uri: "https://loudnoises.herokuapp.com/",
+          uri: "https://github.com/Jeremy-To/SpotifyApp",
         },
       ],
       image: "/assets/big-red-button.svg",
@@ -168,7 +163,7 @@ export const me = {
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      uri: "https://www.linkedin.com/in/Jeremy-to/",
+      uri: "https://www.linkedin.com/in/jérémy-to-b13227253/",
       hover: {
         bg: "blue.500",
         color: "white",

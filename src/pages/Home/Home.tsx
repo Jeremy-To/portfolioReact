@@ -19,8 +19,8 @@ export const Home = () => {
         <Navbar />
         <Hero />
         <About />
-        <Education />
         <Projects />
+        <Education />
         <Skills />
         <Contact />
         <Footer />

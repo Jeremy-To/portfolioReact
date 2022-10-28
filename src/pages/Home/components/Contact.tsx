@@ -36,7 +36,7 @@ export const Contact = () => {
           }}
           mt={4}
         >
-          I'll keep it simple.
+          Fell free to contact me!
         </Heading>
         <Text fontSize={"3xl"}>Here is my email</Text>
         <Text

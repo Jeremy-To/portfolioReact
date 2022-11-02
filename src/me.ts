@@ -91,10 +91,10 @@ export const me = {
       links: [
         {
           name: "Weather app",
-          uri: "https://github.com/Jeremy-To/weather-app",
+          uri: "https://jeremyto-weatherapp.netlify.app",
         },
       ],
-      image: "/assets/dad.png",
+      image: "/assets/weatherapp.jpeg",
     },
     {
       name: "Spotify App",

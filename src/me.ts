@@ -43,8 +43,8 @@ export const me = {
  
   projects: [
     {
-      name: "Jérémy's website (This Website)",
-      description: "A website to showcase my projects and resume",
+      name: "This Website",
+      description: "A website to display my projects and resume",
       contribution:
         "I built the entire website from scratch using React.js, TypeScript, and Chakra UI and deployed it on Netlify.",
       technologies: ["React", "Typescript", "Chakra-UI", "Netlify"],
@@ -58,7 +58,7 @@ export const me = {
           uri: "https://github.com/Jeremy-To/portfolioReact",
         },
       ],
-      image: "/assets/croissant.svg",
+      image: "/assets/mywebsite.jpeg",
     },
     {
       name: "Tic-Tac-Toe",
@@ -74,10 +74,10 @@ export const me = {
       links: [
         {
           name: "tic-tac-toe",
-          uri: "https://github.com/Jeremy-To/tic-tac-toe",
+          uri: "https://jeremyto-tictactoe.netlify.app",
         },
       ],
-      image: "https://content.getaudioshelf.com/logo.png",
+      image: "/assets/tictactoe.jpeg",
     },
     {
       name: "Weather app",

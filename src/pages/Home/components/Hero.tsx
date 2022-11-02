@@ -73,6 +73,7 @@ export const Hero = () => {
             loop
             className="typed"
           />
+          <br />
           Developer
         </h1>
         </Heading>

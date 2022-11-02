@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
-import { FaHamburger } from "react-icons/fa";
+import { HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-scroll";
 import { me } from "../../me";
 import { motion } from "framer-motion";
@@ -37,7 +37,7 @@ export const Navbar = () => {
                 <ThemeSwitcher />
                 <IconButton
                   aria-label="Open menu"
-                  icon={<FaHamburger />}
+                  icon={<HamburgerIcon/>}
                   variant={"ghost"}
                   onClick={isOpen ? onClose : onOpen}
                 />

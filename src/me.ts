@@ -1,5 +1,5 @@
 import {
-  FaDocker,
+  FaBook,
   FaGithub,
   FaLinkedin,
   FaNode,
@@ -23,7 +23,7 @@ export const me = {
   about:
     "Junior Front-End Developer building website. I love making fun projects on the side. Checkout some of my recent projects below!",
   location: "Paris, France",
-  image: "/assets/arhammusheer.jpeg",
+  image: "/assets/world.jpeg",
   education: [
     {
       degree: "Certificate of completion",
@@ -156,7 +156,7 @@ export const me = {
       icon: FaGithub,
       uri: "https://github.com/Jeremy-To",
       hover: {
-        bg: "gray.900",
+        bg: "blue.500",
         color: "white",
       },
     },
@@ -169,6 +169,16 @@ export const me = {
         color: "white",
       },
     },
+    {
+      name: "My résumé",
+      icon: FaBook,
+      uri: "/assets/Jeremy_to_resume.pdf",
+      hover: {
+        bg: "blue.500",
+        color: "white",
+      },
+    },
+    
   ],
 
   contact: {

@@ -67,7 +67,7 @@ export const Hero = () => {
           <br />
           {' '}
           <Typed
-            strings={['Front-end', 'React', 'Django']}
+            strings={['Front-end', 'React', 'Typescript', 'Javascript']}
             typeSpeed={50}
             backSpeed={60}
             loop

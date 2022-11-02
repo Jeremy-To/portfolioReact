@@ -15,7 +15,7 @@ export const Loader = () => {
           },
         }}
       >
-        <Image src={"/assets/croissant.svg"} h={"64px"} />
+        <Image src={"/assets/world.jpeg"} h={"64px"} />
       </motion.div>
     </Flex>
   );

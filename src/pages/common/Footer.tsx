@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <Container maxW={"container.xl"}>
       <Stack
-        minH={"20vh"}
+        minH={"10vh"}
         w={"full"}
         align={"center"}
         justify={"center"}

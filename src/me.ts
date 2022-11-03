@@ -83,7 +83,7 @@ export const me = {
       name: "Weather app",
       description: "A Wheather app using an api to get weather based on the place of your choise",
       contribution:
-        "I built this app using react for fetching geolocalisation and weaather form it.",
+        "I built this app using react for fetching geolocalisation and we©ather form it.",
       technologies: 
       [
         "React.js", "Javascript", "Css", "HTML"
@@ -97,21 +97,21 @@ export const me = {
       image: "/assets/weatherapp.jpeg",
     },
     {
-      name: "Spotify App",
+      name: "Hangman game",
       description:
-        "A web app to add songs to a new playlist using spotify api.",
+        "A web app to play classic hangman game where you have to guess a word by letters with the less tries possible.",
       contribution:
-        "I Built this app in order to enter a song name in a bar reaserch an to get all the songs for it and adding it to a playlist.",
+        "I used Typescript and React in order to build this game, I used a json file to store the words.",
       technologies:       [
-        "React.js", "Javascript", "Css", "HTML"
+        "React.js", "Javascript", "Css", "HTML", "Typescript"
       ],
       links: [
         {
-          name: "Website",
-          uri: "https://github.com/Jeremy-To/SpotifyApp",
+          name: "Hangman game",
+          uri: "https://jeremyto-hangman.netlify.app",
         },
       ],
-      image: "/assets/big-red-button.svg",
+      image: "/assets/hangman.jpeg",
     },
   ],
   skills: [

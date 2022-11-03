@@ -8,7 +8,6 @@ export interface IMe {
   location: string;
   image: string;
   education: IEducation[];
-  experience: IExperience[];
   projects: IProject[];
   skills: ISkill[];
   social: ISocial[];
@@ -21,14 +20,6 @@ interface IEducation {
   school: string;
   graduation: string;
   awards: string[];
-}
-
-interface IExperience {
-  company: string;
-  location: string;
-  position: string;
-  duration: string;
-  bullets: string[];
 }
 
 interface IProject {

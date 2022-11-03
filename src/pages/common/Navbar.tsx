@@ -137,10 +137,6 @@ const options = [
     href: "education",
   },
   {
-    name: "Experience",
-    href: "experience",
-  },
-  {
     name: "Projects",
     href: "projects",
   },

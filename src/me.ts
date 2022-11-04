@@ -81,7 +81,7 @@ export const me = {
     },
     {
       name: "Weather app",
-      description: "A Wheather app using an api to get weather based on the place of your choise",
+      description: "A Weather app using an api to get weather based on the place of your choise",
       contribution:
         "I built this app using react for fetching geolocalisation and we©ather form it.",
       technologies: 
